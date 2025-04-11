@@ -9,7 +9,7 @@ HAUST-CSA-Lab Weekly Report Submission Office
 
       a. **创建ssh key，用于ssh方式克隆github代码。** 在你认为合适的地方，在终端使用`ssh-keygen -t rsa -b 4096 -C "你的邮箱"`命令，创建ssh key，下面的选项全部直接敲回车即可。 随后使用 `cat ~/.ssh/id_rsa.pub` 命令查看生成的公钥，并完整的复制下来。 在github仓库界面点击自己的头像，选择 settings 。进入到设置页面后，点击左侧的 SSH and GPG keys 选项。点击 New SSH key 选项，并将复制下来的内容粘贴上去，添加该 ssh key 的描述。随后点击 Add SSH key ，并一路点击确认即可
 
-​		 b. **点击醒目的绿色`code`按钮，选择ssh，复制链接**      并在终端运行命令				`git clone "链接"` 即可。
+​				 b. **点击醒目的绿色`code`按钮，选择ssh，复制链接**      并在终端运行命令				`git clone "链接"` 即可。
 
 3. 把周报的文件放到克隆下来的目录中
 4. 在仓库的根目录（Weekly_Report）下运行 `git add .;` `git commit -m "班级+姓名+第x周周报";` `git push`命令，即可完成提交。
