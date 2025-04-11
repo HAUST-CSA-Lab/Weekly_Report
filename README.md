@@ -11,8 +11,8 @@ HAUST-CSA-Lab Weekly Report Submission Office
 
 ​				b. **点击醒目的绿色`code`按钮，选择ssh，复制链接** 并在终端运行命令				`git clone "链接"` 即可。
 
-			3. 把周报的文件放到克隆下来的目录中
-			3. 在仓库的根目录(Weekly_Report)下运行 `git add .;` `git commit -m "班级+姓名+第x周周报";` `git push`命令，即可完成提交。
+3. 把周报的文件放到克隆下来的目录中
+4. 在仓库的根目录（Weekly_Report）下运行 `git add .;` `git commit -m "班级+姓名+第x周周报";` `git push`命令，即可完成提交。
 
 注：周报的格式不作要求，清楚说明内容即可。尽量不要出现背书内容（指复制资料/ai助手的大段文字）。但也不要过于简洁，可以说说自己对某个知识点的理解和感悟。
 
